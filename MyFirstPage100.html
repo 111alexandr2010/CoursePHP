@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first page HTML</title>
+    <link rel="stylesheet" type="text/css" href="style101.css">
+</head>
+<body>
+<h2> ДОБРО ПОЖАЛОВАТЬ НА САЙТ ОЗДОРОВИТЕЛЬНОГО КОМПЛЕКСА!</h2> <br/><br/>
+<img alt="foto vanna" src="http://www.turistka.ru/im/13/karim_23.jpg">
+<form action="/handler.php" method="post"><br/>
+    Для бронирования, пожалуйста, ответьте на несколько нижеследующих вопросов: <br/>
+    Пожалуйста, выберите категорию проживания:<br/>
+    <label>
+        •<input type="radio" value="бревенчатый_домик" name="kindAccommodation">
+        бревенчатый домик
+    </label><br/>
+    <label>
+        •<input type="radio" value=“тентовый_домик” name="kindAccommodation">
+        тентовый домик
+    </label><br/>
+    <label>
+        •<input checked="checked" type="radio" value="коттедж" name="kindAccommodation">
+        коттедж
+    </label><br/><br/>
+    <hr/>
+    <br/>
+
+    Пожалуйста, определитесь с набором оздоровительных процедур:<br/>
+    <label>
+        <input type="checkbox" name="checkbox1" value="checkbox">
+        пантовая_ванна
+    </label><br/>
+    <label>
+        <input type="checkbox" name="checkbox2" value="checkbox">
+        пантовая_бочка
+    </label><br/>
+    <label>
+        <input type="checkbox" name="checkbox3" value="checkbox">
+        глинянные_аппликации
+    </label><br/>
+    <label>
+        <input type="checkbox" name="checkbox3" value="checkbox">
+        массаж
+    </label>
+    <br/><br/> <br/>
+    <hr/>
+    На месте вы сможете заказать:<br/>
+    <ul>
+        <li>русская баня</li>
+        <li>игра на бильярде</li>
+        <li>конные прогулки</li>
+        <li>бассейн</li>
+    </ul>
+    <br/><br/>
+    <hr/>
+    <label for="kindService"> Выберите вид трансфера:</label><br/>
+    <select id="kindService">
+        <option> трансфер с аэропорта и обратно</option>
+        <option selected="selected"> транфер только с аэропорта</option>
+        <option> транфер в аэропорт</option>
+        <option> без транфера</option>
+    </select>
+    <hr/>
+    <br/>
+    <label for="excursions"> Какие вы хотели бы заказать и посетить экскурсии из нижеследующих:</label><br/>
+    <select id="excursions" multiple="multiple">
+        <option value="1"> 1.Озера Красной Горы</option>
+        <option value="2"> 2.Озеро Баштала</option>
+        <option value="3"> 3.Каменные бабы</option>
+        <option value="4"> 4.Старообрядческий музей</option>
+    </select><br/><br/>
+    <hr/>
+    <label for="userWishes">Пожалуйста, напишите ваши пожелания во время проживания на территории
+        комплекса:</label><br/><br/>
+    <textarea id="userWishes"> </textarea><br/><br/>
+    <hr/>
+    <label for="userName">Введите ваше ФИО </label>
+    <input type="text" id="userName" name="userName"><br/>
+    <label for="userEmail">Введите ваш электронный адрес </label>
+    <input type="text" id="userEmail" name="userEmail">
+    <button type="submit">Отправить заявку</button>
+    <br/><br/>
+</form>
+<img src="http://www.turistka.ru/oim/akkem_18.jpg"><br/>
+<a href="MyFirstSite101.html"> Ссылка на 2 страницу задания</a>
+</body>
+</html>
